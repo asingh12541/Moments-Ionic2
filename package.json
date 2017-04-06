@@ -1,0 +1,57 @@
+{
+  "name": "ionic-hello-world",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve",
+    "run:android:device": "ionic run android --device --livereload",
+    "run:android:emulator": "ionic run android --emulator --livereload",
+    "run:ios:device": "ionic run ios --device --livereload",
+    "run:ios:simulator": "ionic run ios --emulator --livereload",
+    "build:android": "ionic build android",
+    "build:ios": "ionic build ios",
+    "prepare": "cordova prepare"
+  },
+  "dependencies": {
+    "@angular/common": "2.2.1",
+    "@angular/compiler": "2.2.1",
+    "@angular/compiler-cli": "2.2.1",
+    "@angular/core": "2.2.1",
+    "@angular/forms": "2.2.1",
+    "@angular/http": "2.2.1",
+    "@angular/platform-browser": "2.2.1",
+    "@angular/platform-browser-dynamic": "2.2.1",
+    "@angular/platform-server": "2.2.1",
+    "@ionic-native/camera": "^3.4.4",
+    "@ionic-native/core": "3.2.4",
+    "@ionic-native/facebook": "^3.4.4",
+    "@ionic-native/http": "^3.4.4",
+    "@ionic-native/photo-library": "3.2.4",
+    "@ionic-native/splash-screen": "3.2.4",
+    "@ionic-native/status-bar": "3.2.4",
+    "@ionic/storage": "1.1.7",
+    "ionic-angular": "2.0.1",
+    "ionicons": "3.0.0",
+    "rxjs": "5.0.0-beta.12",
+    "sw-toolbox": "3.4.0",
+    "zone.js": "0.6.26"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "1.1.0",
+    "typescript": "2.0.9"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-whitelist",
+    "cordova-plugin-console",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [],
+  "description": "Demo for cordova-plugin-photo-library on Ionic 2"
+}
